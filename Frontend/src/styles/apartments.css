@@ -1,0 +1,60 @@
+/* apartments.css */
+.container {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #6c757d;
+  }
+  
+  .warning-modal-body {
+    text-align: center;
+    font-weight: bold;
+    color: #dc3545;
+  }
+  
+  .sort-button {
+    margin-left: 10px;
+    padding: 5px 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .sort-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .action-buttons .btn {
+    margin: 0 5px;
+  }
+  
